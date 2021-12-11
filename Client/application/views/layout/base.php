@@ -37,7 +37,7 @@ https://templatemo.com/tm-556-catalog-z
 		</form>
 	</div>
 
-	<?php include('content.php') ?>
+	<?php $this->load->view($page); ?>
 
 	<?php include('footer.php') ?>
 
